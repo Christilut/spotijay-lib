@@ -1,0 +1,38 @@
+{
+  "name": "spotijay-lib",
+  "description": "Spotify downloader library",
+  "version": "0.1.0",
+  "keywords": [
+    "spotify",
+    "spotijay",
+    "download"
+  ],
+  "author": {
+    "name": "Alejandro Perezpayá",
+    "email": "alejandro@perezpaya.net",
+    "url": "http://perezpaya.net"
+  },
+  "contributors": [
+    {
+      "name": "Alejandro Perezpayá",
+      "email": "alejandro@perezpaya.net",
+      "url": "http://perezpaya.net"
+    },
+    {
+      "name": "Luis Iván Cuende",
+      "email": "me@luisivan.net",
+      "url": "http://luisivan.net"
+    },
+    {
+      "name": "Christiaan Maks"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "dependencies": {
+    "async": "~0.9.0",
+    "libspotify": "~0.2.2"
+  }
+}
